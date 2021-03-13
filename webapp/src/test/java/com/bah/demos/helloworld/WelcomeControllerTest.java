@@ -12,7 +12,7 @@ public class WelcomeControllerTest {
     public void welcomeMessageMatchedDefault() {
         final Map<String, Object> model = new HashMap<String, Object>();
         final WelcomeController controller = new WelcomeController();
-        Assert.assertEquals("welcome", controller.welcome(model));
+        Assert.assertEquals("welcomesree", controller.welcome(model));
         Assert.assertEquals(WelcomeController.MESSAGE, model.get("message"));
     }
 
